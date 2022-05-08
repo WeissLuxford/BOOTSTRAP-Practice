@@ -458,6 +458,7 @@ border-radius: 0 0 8px 8px;
 .myWork__picture{
     height: 20.7rem;
     overflow: hidden ;
+    border-radius: 8px;
 }
 
 .myWork_img{
@@ -466,7 +467,7 @@ border-radius: 0 0 8px 8px;
     box-shadow: 0px 0px 5px 3px rgba(113, 119, 241, 0.15),
     0px 0px 5px 3px rgba(113, 119, 241, 0.15);
     transition: 400ms;
-    
+    border-radius: 8px;
 }
 
 .myWork_img:hover{
