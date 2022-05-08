@@ -107,7 +107,9 @@ h1,h2,p,ul {
 .header__nav::after,
 .section__capabilities::after,
 .section__capabilities::before,
-.section__myWork::after{
+.section__myWork::after,
+.footer__navbar::after,
+.footer__navbar::before{
     content: '';
     display: block;
     position: absolute;
@@ -121,6 +123,18 @@ h1,h2,p,ul {
     animation: loop 2s linear infinite alternate;
     z-index: -1;
 }
+
+.footer__navbar::after{
+    top: 30px;
+    left: -100%;
+}
+.footer__navbar::before{    
+    left: -10%;
+    top: -55%;
+}
+
+
+
 .section__myWork::before{
     z-index: -2;
 }
@@ -498,6 +512,7 @@ border-radius: 0 0 8px 8px;
 }
 
 .footer__navbar{
+    position: relative;
     padding-bottom: 130px;
     display: flex;
     flex-direction: column;
