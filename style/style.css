@@ -529,7 +529,8 @@ border-radius: 0 0 8px 8px;
 }
 
 .footer__link:hover{
-    color: white;
+    color: #151437;
+    
 }
 
 /* Main end */
@@ -561,6 +562,9 @@ border-radius: 0 0 8px 8px;
     .logo:before{
         content: url(../images/svg/logo-dark.svg);
         display: block;
+    }
+    .footer__link:hover{
+        color: var(--purple);
     }
     
 
